@@ -1,0 +1,214 @@
+html{
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+}
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 10%;
+}
+nav {
+  position: fixed;
+  top: 10%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 100;
+  height: 90%;
+  left: 0;
+  width: 15%;
+  font-weight: 300;
+  font-size: 1rem;
+}
+nav a{
+  text-decoration: none;
+  font-size: 75%;
+  display: inline-block;
+  width: 50%;
+  padding: 15px; 0;
+  position: relative;
+  z-index: 0;
+
+}
+nav a.active {
+  background-color: rbga(0,0,0,0.8)
+}
+nav ul{
+  position: relative;
+  text-align: center;
+  list-style-type: none;
+  top: 20%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  justify-content:space-around;
+  padding:  0;
+  margin: 0;
+}
+nav ul li{
+
+  text-align: center center;
+transition: all .2s ease-in-out;
+  color: #FFF;
+
+}
+nav ul li:hover{
+  color: rgba(210, 210, 69, 1);
+  transform: scale(1.3);
+}
+.fas a:hover{
+  color: rgba(210, 210, 69, 1);
+  transform: scale(1.3);
+}
+.fas a {
+  width: 50px;
+  height: 50px;
+  color: #FFF;
+}
+fa a::before{
+  align-items: center;
+}
+img{
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.boom{
+  display: block;
+  height: 100%;
+  width: 100%;
+  right: 15%;
+  margin: 0;
+  padding: 0;
+  }
+  .moob{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+  }
+.moob ul{
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  position: relative;
+  padding: 0;
+}
+.moob ul li{
+  display: inline-block;
+
+}
+.inspiring{
+
+  right: 15%;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+}
+.moobui{
+text-align: right;
+  right: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.moobui h6{
+  margin-top: 0;
+  text-align: left;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+
+}
+.center:hover{
+  color: rgba(210, 210, 69, 1);
+  
+}
+.moobui h2{
+
+  font-size: 1.5em;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+h6{
+  color: #FFF;
+  font-size: 1.5em;
+
+}
+h2{
+  color: #FFF;
+  font-size: 3em;
+}
+h2:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);transform: scale(1.3);
+}
+h6:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);transform: scale(1.3);
+}
+
+
+.background{
+  position: absolute;
+}
+.smallimg{
+  position: absolute;
+  margin-left: 20%;
+  z-index: 99999;
+  bottom: 30px;
+  right: 30px;
+}
+.smallimg ul{
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+}
+.smallimg ul li{
+  display: inline-block;
+    max-width: 120px;
+  max-height: 120px;
+  margin-left: 30px;
+  cursor: pointer;
+  border: 5px solid transparent;
+  transition: all 0.5s;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-overflow: 50%;
+  transition: all .2s ease-in-out;
+
+}
+.smallimg ul li:hover{  box-shadow: 0 0 11px rgba(35, 86, 80, 0.89);transform: scale(1.5);}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all .2s ease-in-out;
+
+}
+footer{
+  bottom: 0;
+  left: 15%;
+  height: 5%;
+}
+footer a{
+  text-align: center;
+  color: black;
+}
