@@ -105,6 +105,7 @@ nav ul li:hover{
 fa a::before{
   align-items: center;
 }
+
 img{
   height: 100%;
   width: 100%;
@@ -123,7 +124,9 @@ img{
     height: 100vh;
     width: 100vw;
     float: left;
+
     text-align: center;
+
     background-size: cover;
   }
 
@@ -134,45 +137,25 @@ img{
   margin:0;
   position: relative;
   padding: 0;
+  float: left;
+
 }
 .moob ul li{
   display: inline-block;
+
 }
 .inspiring{
-
   right: 15%;
   position: absolute;
   top: 35%;
   transform: translateY(-50%);
 }
-.moobui{
-text-align: right;
-  right: 30px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.moobui h6{
-  margin-top: 0;
-  text-align: left;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: white;
 
-}
+
 .center:hover{
   color: rgba(210, 210, 69, 1);
-
 }
-.moobui h2{
 
-  font-size: 1.5em;
-  margin-top: 0;
-  text-transform: uppercase;
-  font-weight: 900;
-  color: white;
-}
 h6{
   color: #FFF;
   font-size: 1.5em;
@@ -221,7 +204,9 @@ h6:hover{
   transition: all .2s ease-in-out;
 
 }
-.smallimg ul li:hover{  box-shadow: 0 0 11px rgba(35, 86, 80, 0.89);transform: scale(1.5);}
+.smallimg ul li:hover{
+  box-shadow: 0 0 11px rgba(35, 86, 80, 0.89);transform: scale(1.5);
+}
 .center {
   position: absolute;
   top: 50%;
@@ -230,19 +215,53 @@ h6:hover{
   transition: all .2s ease-in-out;
 
 }
+.content{
+  position: absolute;
+  height: 100%;
+  width: 85%;
+  left: 15%;
 
-.link ul{
-  list-style-type: none;
+
 }
-.link ul li{
+.form-control .row {
+  border: none;
+  border-radius:  none;
+}
+fieldset{
+  border: none;
+
+}
+form#contact{
+  position: relative;
+  top: 40%;
+  
+}
+
+
+#soc {
+  position: relative;
+  height: 100vh;
+
+}
+#soc .fab{
+  position: absolute;
+  top: 50%;
+
+}
+#soc li{
   display: inline-block;
+  width: 10%;
+
 }
-.link ul li a {
-  justify-content: center;
-  color: black;
-  width: 15%;
-  height: 15%;
-  cursor: pointer;
+
+#soc .fab::before{
+ color:white;
+ font-size: 10vh;
+cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+#soc .fab:hover{
+transform: scale(1.5);
 }
 footer{
   bottom: 0;
