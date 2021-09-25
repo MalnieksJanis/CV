@@ -229,14 +229,44 @@ h6:hover{
 }
 fieldset{
   border: none;
+}
+fieldset input, textarea  {
+  background-color: rgba(204, 181, 180,0.4);
+  color: rgba(255,255,255,0.65);
 
 }
+
+
 form#contact{
   position: relative;
-  top: 40%;
-  
-}
+  top: 25%;
 
+
+}
+#name, #email, #message{
+  margin-bottom: 1%;
+  width: 40%;
+   height: 5vh;
+   font-size: 300%;
+
+
+}
+#message {
+  width: 55%;
+  height: 25vh;
+  font-size: 300%;
+
+}
+fieldset button {
+  height: 7vh;
+  width: 12vh;
+  border-radius: 8%;
+  background-color: rgba(135, 23, 0,0.8);
+}
+fieldset button:hover{
+  background-color: rgba(191, 10, 10);
+  text: white;
+}
 
 #soc {
   position: relative;
