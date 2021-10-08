@@ -4,3 +4,4 @@
 <h2> Using only html & css <h2>
 <br>
 <p>
+https://malnieksjanis.github.io/CV/
